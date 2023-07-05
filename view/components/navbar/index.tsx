@@ -1,5 +1,4 @@
 import Link from "next/link";
-// import Image from "next/image";
 import HireMe from "../hiremebtn";
 
 const Navbar: React.FC = () => {

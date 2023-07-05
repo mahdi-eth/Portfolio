@@ -1,9 +1,9 @@
-import Navbar from "../components/navbar";
+import Header from "@/components/header";
 
 const Home: React.FC = () => {
     return (
         <>
-            <Navbar />
+            <Header />
         </>
     );
 };
