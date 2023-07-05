@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <header className="flex flex-col h- bg-_black text-white items-center gap-4 justify-center p-4 cursor-default">
+        <header className="flex flex-col pb-24 text-white items-center gap-4 justify-center p-4 cursor-default">
             <div className="text-2xl font-semibold">
                 <span className="hover:text-_orange">Hi,</span>
                 <span className="hover:text-_orange">{` I'm`} </span>
@@ -27,15 +27,15 @@ const Header = () => {
                 <span className="hover:text-_orange">applications </span>
                 <span className="hover:text-_orange">and </span>
                 <span className="hover:text-_orange">build </span>
-                <span className="hover:text-_orange">responsive </span>
+                <span className="hover:text-_orange">fullstack </span>
                 <span className="hover:text-_orange">websites.</span>
             </div>
             <Image
                 src="/images/mahdi.jpg"
                 alt="Profile"
-                width={160}
-                height={160}
-                className="rounded-full mt-4 border border-opacity-50 border-_orange"
+                width={200}
+                height={200}
+                className="rounded-full mt-10 border border-opacity-30 border-_orange hover:border-dashed transition-all delay-150"
             />
         </header>
     );

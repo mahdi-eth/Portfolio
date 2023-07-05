@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
                     <span className="font-bold">Mahdi Ettehadnejad</span>
                 </Link>
             </div>
-            <div className="flex items-center gap-8 me-20">
+            <div className="flex items-center gap-8 me-14">
                 <Link href="/">
                     <span className="text-white hover:text-_orange">Home</span>
                 </Link>
