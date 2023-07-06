@@ -4,7 +4,7 @@ import HireMe from "../hiremebtn";
 
 const AboutMe = () => {
     return (
-        <section className="flex flex-wrap items-center justify-center p-4 mt-12">
+        <section className="flex flex-wrap items-center justify-center p-4 mt-24">
             <div className="w-full md:w-1/2">
                 <Image
                     src="/images/AboutMe.png"
@@ -16,7 +16,10 @@ const AboutMe = () => {
             <div className="w-full md:w-1/2 flex flex-col justify-center gap-6">
                 <div className="mb-4">
                     <div className="inline bg-_gray text-_orange py-2 px-4 rounded-full">
-                        Who am I?
+                        WHO I AM
+                    </div>
+                    <div className="text-white font-bold text-5xl mt-3">
+                        About Me
                     </div>
                 </div>
                 <div>

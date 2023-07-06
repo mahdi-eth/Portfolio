@@ -1,12 +1,16 @@
 import Header from "@/components/header";
 import AboutMe from "@/components/aboutme";
+import Skills from "@/components/skills";
 
 const Home: React.FC = () => {
     return (
         <div className="bg-_black">
             <Header />
             <hr className="border w-full border-_orange py-1/2" />
-            <AboutMe />
+            <section className="px-12">
+                <AboutMe />
+                <Skills />
+            </section>
         </div>
     );
 };
