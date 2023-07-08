@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import AboutMe from "@/components/aboutme";
 import Skills from "@/components/skills";
+import Footer from "@/components/footer";
 
 const Home: React.FC = () => {
     return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
                 <AboutMe />
                 <Skills />
             </section>
+            <Footer />
         </div>
     );
 };

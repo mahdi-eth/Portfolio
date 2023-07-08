@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <header className="flex flex-col pt-20 pb-24 text-white items-center gap-4 justify-center p-4 cursor-default">
+        <header id="header" className="flex mt-20 flex-col pt-20 pb-24 text-white items-center gap-4 justify-center p-4 cursor-default">
             <div className="text-2xl font-semibold">
                 <span className="hover:text-_orange">Hi,</span>
                 <span className="hover:text-_orange">{` I'm`} </span>
