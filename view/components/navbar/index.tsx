@@ -3,33 +3,61 @@ import HireMe from "../hiremebtn";
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="flex fixed top-0 w-full items-center justify-between p-4 bg-_black text-white">
-            <div className="w-30 flex items-center text-white hover:text-_orange">
-                <Link href="/">
-                    <span className="font-bold">Mahdi Ettehadnejad</span>
-                </Link>
+        <nav>
+            <div className="hidden md:flex md:fixed md:top-0 w-full items-center z-10 justify-between p-4 bg-_black text-white">
+                <div className="w-30 flex items-center text-white hover:text-_orange">
+                    <Link href="/">
+                        <span className="font-bold">Mahdi Ettehadnejad</span>
+                    </Link>
+                </div>
+                <div className="hidden md:flex items-center gap-4 md:gap-8 md:me-14">
+                    <Link href="/">
+                        <span className="text-white hover:text-_orange">
+                            Home
+                        </span>
+                    </Link>
+                    <Link href="/about">
+                        <span className="text-white hover:text-_orange">
+                            About Me
+                        </span>
+                    </Link>
+                    <Link href="/skills">
+                        <span className="text-white hover:text-_orange">
+                            Skills
+                        </span>
+                    </Link>
+                    <Link href="/connect">
+                        <span className="text-white hover:text-_orange">
+                            Connect
+                        </span>
+                    </Link>
+                </div>
+                <HireMe />
             </div>
-            <div className="flex items-center gap-8 me-14">
-                <Link href="/">
-                    <span className="text-white hover:text-_orange">Home</span>
-                </Link>
-                <Link href="/about">
-                    <span className="text-white hover:text-_orange">
-                        About Me
-                    </span>
-                </Link>
-                <Link href="/skills">
-                    <span className="text-white hover:text-_orange">
-                        Skills
-                    </span>
-                </Link>
-                <Link href="/connect">
-                    <span className="text-white hover:text-_orange">
-                        Connect
-                    </span>
-                </Link>
+            <div className="flex md:hidden fixed top-0 w-full z-10 items-center justify-between p-4 bg-_black text-white">
+                <div className="flex items-center bg-_black justify-around w-full px-2">
+                    <Link href="/">
+                        <span className="text-white hover:text-_orange">
+                            Home
+                        </span>
+                    </Link>
+                    <Link href="/about">
+                        <span className="text-white hover:text-_orange">
+                            About Me
+                        </span>
+                    </Link>
+                    <Link href="/skills">
+                        <span className="text-white hover:text-_orange">
+                            Skills
+                        </span>
+                    </Link>
+                    <Link href="/connect">
+                        <span className="text-white hover:text-_orange">
+                            Connect
+                        </span>
+                    </Link>
+                </div>
             </div>
-            <HireMe />
         </nav>
     );
 };
