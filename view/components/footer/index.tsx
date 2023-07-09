@@ -5,23 +5,23 @@ import {
     FaGithub,
     FaLinkedin,
     FaTwitter,
-    FaWhatsapp
+    FaWhatsapp,
+    FaMedium
 } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
 const Footer = () => {
     return (
-        <footer
-            id="connect"
-            className="text-white py-12 px-96 border-t border-_orange">
-            <div className="flex justify-between">
-                <div className="mb-6">
+        <footer className="text-white py-12 px-6 border-t border-_orange">
+            <div className="container mx-auto md:flex md:justify-between md:items-center">
+                <div className="mb-6 text-center md:mb-0 md:text-left">
                     <p className="text-2xl font-bold text-white">
                         Connect with me:
                     </p>
                 </div>
-                <div className="flex justify-center mb-4">
+                <div className="flex justify-center mb-4 md:justify-end">
                     <a
+                        title="Github"
                         href="https://github.com/mahdi-eth"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -29,6 +29,7 @@ const Footer = () => {
                         <FaGithub size={24} />
                     </a>
                     <a
+                        title="Linkedin"
                         href="https://www.linkedin.com/in/mahdi-ettehadnejad-86a0b323a/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -36,6 +37,7 @@ const Footer = () => {
                         <FaLinkedin size={24} />
                     </a>
                     <a
+                        title="Twitter"
                         href="https://twitter.com/MahdiEttehad"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -43,20 +45,30 @@ const Footer = () => {
                         <FaTwitter size={24} />
                     </a>
                     <a
+                        title="Youtube"
                         href="https://www.youtube.com/channel/UCNRh48EhjVhivOCh38bCzWw"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-400 mx-2 hover:text-_orange">
                         <FaYoutube size={24} />
                     </a>
+                    <a
+                        title="Medium"
+                        href="https://medium.com/@mahdi.ettehad85"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 mx-2 hover:text-_orange">
+                        <FaMedium size={24} />
+                    </a>
                 </div>
             </div>
-            <div className="flex justify-between">
-                <div className="text-center mb-6">
+            <div className="container mx-auto md:flex md:justify-between md:items-center">
+                <div className="text-center mb-6 md:mb-0">
                     <p className="text-2xl font-bold text-_orange">Hire me:</p>
                 </div>
-                <div className="text-center flex items-center justify-center mb-4">
+                <div className="flex justify-center mb-4 md:justify-end">
                     <a
+                        title="Telegram"
                         href="https://t.me/mahdi_eth7895"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -64,6 +76,7 @@ const Footer = () => {
                         <FaTelegramPlane size={24} />
                     </a>
                     <a
+                        title="Gmail"
                         href="mailto:mahdi.ettehad85@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -71,6 +84,7 @@ const Footer = () => {
                         <GrMail size={24} />
                     </a>
                     <a
+                        title="Whatsapp"
                         href="https://wa.me/989908882389"
                         target="_blank"
                         rel="noopener noreferrer"
