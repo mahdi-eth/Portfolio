@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import HireMe from "../hiremebtn";
+import LanguageSwitcher from "../language";
 
 const Navbar: React.FC = () => {
     return (
@@ -7,6 +9,7 @@ const Navbar: React.FC = () => {
             <div className="hidden md:flex md:fixed md:top-0 w-full items-center z-10 justify-between p-4 bg-_black text-white">
                 <div className="w-30 flex items-center text-white hover:text-_orange">
                     <Link href="/">
+                        {/* <LanguageSwitcher /> */}
                         <span className="font-bold">Mahdi Ettehadnejad</span>
                     </Link>
                 </div>

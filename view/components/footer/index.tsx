@@ -12,7 +12,7 @@ import { GrMail } from "react-icons/gr";
 
 const Footer = () => {
     return (
-        <footer className="text-white py-12 px-6 border-t border-_orange">
+        <footer className="text-white py-12 sm:px-32 md:px-48 border-t border-_orange">
             <div className="container mx-auto md:flex md:justify-between md:items-center">
                 <div className="mb-6 text-center md:mb-0 md:text-left">
                     <p className="text-2xl font-bold text-white">
