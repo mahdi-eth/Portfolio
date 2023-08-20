@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import HireMe from "../hiremebtn";
-import LanguageSwitcher from "../language";
+// import LanguageSwitcher from "../language";
 
 const Navbar: React.FC = () => {
     return (
