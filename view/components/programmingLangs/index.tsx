@@ -196,6 +196,15 @@ const ProgLangs = () => {
                     width="63"
                 />
             </a>
+            <a title="TypeScript" href="https://www.typescriptlang.org/">
+                <img
+                    className="bg-_gray p-3 h-14 w-14"
+                    alt="Programming language logo"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    height="30"
+                    width="33"
+                />
+            </a>
         </div>
     );
 };
