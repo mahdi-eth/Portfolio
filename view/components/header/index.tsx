@@ -19,7 +19,7 @@ const Header = () => {
                     AI{" "}
                 </span>
                 <span className="inline-block hover:text-_orange pb-2 px-1">
-                    Engineer{" "}
+                    Developer{" "}
                 </span>
                 <span className="inline-block hover:text-_orange pb-2 px-1">
                     and{" "}
