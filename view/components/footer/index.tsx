@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
             <div className="container mx-auto md:flex md:justify-between md:items-center">
                 <div className="text-center mb-6 md:mb-0">
-                    <p className="text-2xl font-bold text-_orange">Hire me:</p>
+                    <p className="text-2xl font-bold text-_orange">Let&apos;s collaborate:</p>
                 </div>
                 <div className="flex justify-center mb-4 md:justify-end">
                     <a

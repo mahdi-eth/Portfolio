@@ -16,10 +16,7 @@ const Header = () => {
             <span className="hover:text-_orange"></span>
             <div className="text-4xl text-gray-600 text-center">
                 <span className="inline-block hover:text-_orange pb-2 px-1">
-                    AI{" "}
-                </span>
-                <span className="inline-block hover:text-_orange pb-2 px-1">
-                    Developer{" "}
+                    ML{" "}
                 </span>
                 <span className="inline-block hover:text-_orange pb-2 px-1">
                     and{" "}
@@ -39,7 +36,7 @@ const Header = () => {
                 <span className="hover:text-_orange">and </span>
                 <span className="hover:text-_orange">build </span>
                 <span className="hover:text-_orange">fullstack </span>
-                <span className="hover:text-_orange">websites.</span>
+                <span className="hover:text-_orange">web applications.</span>
             </div>
             <div className="mt-10">
                 <div className="relative w-48 h-48 md:w-60 md:h-60">

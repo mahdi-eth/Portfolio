@@ -4,8 +4,8 @@ const HireMe: React.FC = () => {
     return (
         <Link
             href="/connect"
-            className="w-30 min-w-max py-2 text-_black font-semibold hover:opacity-90 bg-_orange px-8 rounded-full">
-            Let's collaborate
+            className="min-w-max py-2 text-_black font-semibold hover:opacity-90 bg-_orange px-4 rounded-full">
+            Let&apos;s collaborate
         </Link>
     );
 };
