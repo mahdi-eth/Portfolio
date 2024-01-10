@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+"use client"
 import React from "react";
 import HireMe from "../hiremebtn";
 import ProgLangs from "../programmingLangs";
