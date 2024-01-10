@@ -4,7 +4,9 @@ import HireMe from "../hiremebtn";
 
 const AboutMe = () => {
     return (
-        <section id="aboutme" className="flex flex-wrap items-center justify-center p-4 mt-24">
+        <section
+            id="aboutme"
+            className="flex flex-wrap items-center justify-center p-4 mt-24">
             <div className="w-full md:w-1/2">
                 <Image
                     src="/images/AboutMe.png"
@@ -24,18 +26,12 @@ const AboutMe = () => {
                 </div>
                 <div>
                     <p className="text-md text-white">
-                        {`Hi, I'm Mahdi Ettehadnejad, an AI engineer and problem
-                        solver. With a strong background in machine learning,
-                        programming, and the MERN stack, I am passionate about
-                        leveraging the power of AI to create innovative
-                        solutions. I have a deep love for learning and a keen
-                        interest in philosophy, science, and engineering.
-                        Curiosity, determination, and a strong work ethic drive
-                        me to continuously seek knowledge and push the
-                        boundaries of what is possible. Whether working
-                        independently or as part of a team, I thrive on tackling
+                        {`Hey! 👋 I'm Mahdi Ettehadnejad, a 17-year-old backend developer with a knack for crafting efficient and robust software solutions. 💻
+
+🌐 Passionate about AI and ML, I'm on a mission to leverage technology for positive impact. My goal is to create cutting-edge AI solutions and contribute to the evolution of tech. 🛠️
+ Whether working independently or as part of a team, I thrive on tackling
                         complex challenges and finding creative solutions. Let's
-                        collaborate and shape the future of AI together.`}
+                        collaborate and shape the future together.`}
                     </p>
                 </div>
                 <div className="flex">
