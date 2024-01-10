@@ -47,9 +47,13 @@ const ProgLangs = () => {
     }, []);
 
     return (
-        <div className="w-full md:w-1/2 flex flex-wrap gap-2">
+        <div className="w-full md:w-1/2 flex flex-wrap gap-2 items-center">
             {langs.map((lang, index) => (
-                <div key={index} dangerouslySetInnerHTML={{ __html: lang }} />
+                <div
+                    key={index}
+                    dangerouslySetInnerHTML={{ __html: lang }}
+                    className="bg-_gray p-3 h-14 w-14 justify-center items-center"
+                />
             ))}
         </div>
     );
